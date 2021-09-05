@@ -3,7 +3,7 @@
 const passport = require('passport')
 const config = require('./environment.config') 
 const passportJWT = require('passport-jwt')
-const db = require('./sequelize.config')
+// const db = require('./sequelize.config')
 const _ = require('lodash')
 
 // Handling passport strategy
