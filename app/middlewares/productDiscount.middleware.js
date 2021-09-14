@@ -168,4 +168,9 @@ const validateDeleteProductDiscount = (req, res, done) => {
   done()
 }
 
-module.exports = { validateCreateProductDiscount, validateGetProductDiscount, validateUpdateProductDiscount, validateDeleteProductDiscount }
+module.exports = { 
+  validateCreateProductDiscount, 
+  validateGetProductDiscount, 
+  validateUpdateProductDiscount, 
+  validateDeleteProductDiscount 
+}

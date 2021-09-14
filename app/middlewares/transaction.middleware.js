@@ -190,4 +190,9 @@ const validateDeleteTransaction = (req, res, done) => {
   done()
 }
 
-module.exports = { validateCreateTransaction, validateGetTransaction, validateUpdateTransaction, validateDeleteTransaction }
+module.exports = { 
+  validateCreateTransaction, 
+  validateGetTransaction, 
+  validateUpdateTransaction, 
+  validateDeleteTransaction
+}
