@@ -1,6 +1,6 @@
 'use strict'
 const { createOrder, getOrder, updateOrder, deleteOrder } = require('../controllers/Order.controller')
-const { validateCreateOrder, validateGetOrder, validateUpdateOrder, validateDeleteOrder } = require('../middlewares/Order.middleware')
+const { validateCreateOrder, validateGetOrder, validateUpdateOrder, validateDeleteOrder } = require('../middlewares/order.middleware')
 // const passport = require('../config/passport')
 module.exports = function (app, apiVersion) {
   const route = apiVersion

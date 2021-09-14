@@ -10,7 +10,7 @@ const {
      validateCreateBooth,
      validateGetBooth, 
      validateDeleteBooth, 
-     validateUpdateBooth } = require('../middlewares/booth.Middleware')
+     validateUpdateBooth } = require('../middlewares/booth.middlewar')
 
     module.exports = function (app, apiVersion) {
     const route = apiVersion
